@@ -1,3 +1,12 @@
+geckodriver.log
+xvfb.log
+pyvirtualdisplay.png
+pyautogui.png
+firefox.png
+selenium.html
+pyautogui_and_selenium.html
+pyautogui_and_selenium.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
