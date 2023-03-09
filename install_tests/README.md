@@ -60,8 +60,6 @@ Wait a bit. Then check if firefox is in the 'pyautogui.png' screenshot. Like the
 ```
 Xvfb :1 -screen 0 1024x768x16 &> xvfb.log  &
 export DISPLAY=:1.0
-firefox &
-sleep 5  # probably enough time to warm up firefox
 python3 test_selenium.py
 ```
 

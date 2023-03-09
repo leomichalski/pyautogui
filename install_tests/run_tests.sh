@@ -11,8 +11,6 @@ docker run --rm -v ${PWD}:/curr -w /curr leommiranda/pyautogui:libpci-and-libegl
 docker run --rm -v ${PWD}:/curr -w /curr leommiranda/pyautogui:libpci-and-libegl bash -c "
     Xvfb :1 -screen 0 1024x768x16 &> xvfb.log  & \
     export DISPLAY=:1.0; \
-    firefox & \
-    sleep 5; \
     python3 test_selenium.py;
 "
 
