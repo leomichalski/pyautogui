@@ -11,6 +11,9 @@ RUN apt-get update \
     libcanberra-gtk3-module \
     libegl-dev \
     libpci-dev \
+    # install a lightweight window manager
+    fluxbox \
+    eterm \
     # install pip
     python3-pip \
     # install xvfb/pyvirtualdisplay packages
