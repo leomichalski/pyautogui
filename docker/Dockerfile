@@ -22,6 +22,8 @@ RUN apt-get update \
     tigervnc-standalone-server \
     x11-utils \
     gnumeric \
+    # install vnc server for remote access
+    x11vnc \
     # tkinter is necessary to get the mouse position with pyautogui
     python3-dev \
     python3-tk \
